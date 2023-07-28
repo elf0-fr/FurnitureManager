@@ -16,6 +16,13 @@
 		7619A8832A72DD650004C811 /* Furniture_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8822A72DD650004C811 /* Furniture_ManagerUITests.swift */; };
 		7619A8852A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8842A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift */; };
 		7619A8942A72F5A50004C811 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8932A72F5A50004C811 /* Documentation.docc */; };
+		7619A8982A742B700004C811 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8972A742B700004C811 /* Furniture.swift */; };
+		7619A89A2A742C6F0004C811 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8992A742C6F0004C811 /* Space.swift */; };
+		7619A89C2A7435F10004C811 /* FurnitureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A89B2A7435F10004C811 /* FurnitureType.swift */; };
+		7619A89E2A7439420004C811 /* FurnitureMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A89D2A7439420004C811 /* FurnitureMaterial.swift */; };
+		7619A8A02A7456C90004C811 /* FurnitureDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A89F2A7456C90004C811 /* FurnitureDimensions.swift */; };
+		7619A8A22A745B090004C811 /* FurniturePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8A12A745B090004C811 /* FurniturePrice.swift */; };
+		7619A8A42A7460EA0004C811 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		7619A8822A72DD650004C811 /* Furniture_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture_ManagerUITests.swift; sourceTree = "<group>"; };
 		7619A8842A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7619A8932A72F5A50004C811 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		7619A8972A742B700004C811 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		7619A8992A742C6F0004C811 /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		7619A89B2A7435F10004C811 /* FurnitureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureType.swift; sourceTree = "<group>"; };
+		7619A89D2A7439420004C811 /* FurnitureMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureMaterial.swift; sourceTree = "<group>"; };
+		7619A89F2A7456C90004C811 /* FurnitureDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureDimensions.swift; sourceTree = "<group>"; };
+		7619A8A12A745B090004C811 /* FurniturePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturePrice.swift; sourceTree = "<group>"; };
+		7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,7 @@
 		7619A8632A72DD640004C811 /* Furniture Manager */ = {
 			isa = PBXGroup;
 			children = (
+				7619A8962A742B3F0004C811 /* Model */,
 				7619A8642A72DD640004C811 /* Furniture_ManagerApp.swift */,
 				7619A8662A72DD640004C811 /* Item.swift */,
 				7619A8682A72DD640004C811 /* ContentView.swift */,
@@ -133,6 +148,20 @@
 				7619A8842A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift */,
 			);
 			path = "Furniture ManagerUITests";
+			sourceTree = "<group>";
+		};
+		7619A8962A742B3F0004C811 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7619A8972A742B700004C811 /* Furniture.swift */,
+				7619A89B2A7435F10004C811 /* FurnitureType.swift */,
+				7619A89D2A7439420004C811 /* FurnitureMaterial.swift */,
+				7619A89F2A7456C90004C811 /* FurnitureDimensions.swift */,
+				7619A8A12A745B090004C811 /* FurniturePrice.swift */,
+				7619A8992A742C6F0004C811 /* Space.swift */,
+				7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7619A8A22A745B090004C811 /* FurniturePrice.swift in Sources */,
+				7619A89C2A7435F10004C811 /* FurnitureType.swift in Sources */,
+				7619A8A02A7456C90004C811 /* FurnitureDimensions.swift in Sources */,
 				7619A8672A72DD640004C811 /* Item.swift in Sources */,
 				7619A8652A72DD640004C811 /* Furniture_ManagerApp.swift in Sources */,
+				7619A89A2A742C6F0004C811 /* Space.swift in Sources */,
+				7619A8982A742B700004C811 /* Furniture.swift in Sources */,
+				7619A89E2A7439420004C811 /* FurnitureMaterial.swift in Sources */,
 				7619A8692A72DD640004C811 /* ContentView.swift in Sources */,
+				7619A8A42A7460EA0004C811 /* PreviewSampleData.swift in Sources */,
 				7619A8942A72F5A50004C811 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
