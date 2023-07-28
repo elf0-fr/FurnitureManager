@@ -63,6 +63,7 @@
 		7619A89F2A7456C90004C811 /* FurnitureDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureDimensions.swift; sourceTree = "<group>"; };
 		7619A8A12A745B090004C811 /* FurniturePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturePrice.swift; sourceTree = "<group>"; };
 		7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		7619A8A62A7468160004C811 /* LICENCE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +94,11 @@
 		7619A8582A72DD630004C811 = {
 			isa = PBXGroup;
 			children = (
-				7619A8932A72F5A50004C811 /* Documentation.docc */,
 				7619A8632A72DD640004C811 /* Furniture Manager */,
 				7619A8772A72DD650004C811 /* Furniture ManagerTests */,
 				7619A8812A72DD650004C811 /* Furniture ManagerUITests */,
+				7619A8932A72F5A50004C811 /* Documentation.docc */,
+				7619A8A52A7465230004C811 /* LICENSE */,
 				7619A8622A72DD640004C811 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,6 +164,14 @@
 				7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7619A8A52A7465230004C811 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				7619A8A62A7468160004C811 /* LICENCE.txt */,
+			);
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
