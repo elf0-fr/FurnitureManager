@@ -15,6 +15,7 @@
 		7619A8792A72DD650004C811 /* Furniture_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8782A72DD650004C811 /* Furniture_ManagerTests.swift */; };
 		7619A8832A72DD650004C811 /* Furniture_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8822A72DD650004C811 /* Furniture_ManagerUITests.swift */; };
 		7619A8852A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8842A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift */; };
+		7619A8942A72F5A50004C811 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8932A72F5A50004C811 /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7619A87E2A72DD650004C811 /* Furniture ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Furniture ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7619A8822A72DD650004C811 /* Furniture_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture_ManagerUITests.swift; sourceTree = "<group>"; };
 		7619A8842A72DD650004C811 /* Furniture_ManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture_ManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7619A8932A72F5A50004C811 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		7619A8582A72DD630004C811 = {
 			isa = PBXGroup;
 			children = (
+				7619A8932A72F5A50004C811 /* Documentation.docc */,
 				7619A8632A72DD640004C811 /* Furniture Manager */,
 				7619A8772A72DD650004C811 /* Furniture ManagerTests */,
 				7619A8812A72DD650004C811 /* Furniture ManagerUITests */,
@@ -265,6 +268,7 @@
 				7619A8672A72DD640004C811 /* Item.swift in Sources */,
 				7619A8652A72DD640004C811 /* Furniture_ManagerApp.swift in Sources */,
 				7619A8692A72DD640004C811 /* ContentView.swift in Sources */,
+				7619A8942A72F5A50004C811 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
