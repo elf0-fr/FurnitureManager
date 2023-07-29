@@ -64,6 +64,7 @@
 		7619A8A12A745B090004C811 /* FurniturePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturePrice.swift; sourceTree = "<group>"; };
 		7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
 		7619A8A62A7468160004C811 /* LICENCE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
+		7619A8AC2A74F7D70004C811 /* HEADER */ = {isa = PBXFileReference; lastKnownFileType = text; path = HEADER; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				7619A8A62A7468160004C811 /* LICENCE.txt */,
+				7619A8AC2A74F7D70004C811 /* HEADER */,
 			);
 			path = LICENSE;
 			sourceTree = "<group>";

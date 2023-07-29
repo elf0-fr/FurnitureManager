@@ -1,8 +1,10 @@
 //
-//  FurnitureDimensions.swift
+//  See the LICENSE.txt file for this project's licensing information.
+//
+//  File.swift
 //  Furniture Manager
 //
-//  Created by Elfo on 28/07/2023.
+//  Created by: Romain Tirbisch AKA Elfo on 2023
 //
 
 import Foundation
