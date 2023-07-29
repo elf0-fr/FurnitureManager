@@ -1,8 +1,10 @@
 //
+//  See the LICENSE.txt file for this project's licensing information.
+//
 //  Furniture_ManagerApp.swift
 //  Furniture Manager
 //
-//  Created by Elfo on 27/07/2023.
+//  Created by: Romain Tirbisch AKA Elfo on 2023
 //
 
 import SwiftUI
