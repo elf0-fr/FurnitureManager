@@ -1,7 +1,7 @@
 //
 //  See the LICENSE.txt file for this project's licensing information.
 //
-//  File.swift
+//  PreviewSampleData.swift
 //  Furniture Manager
 //
 //  Created by: Romain Tirbisch AKA Elfo on 2023
