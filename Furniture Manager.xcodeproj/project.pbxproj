@@ -23,6 +23,9 @@
 		7619A8A02A7456C90004C811 /* FurnitureDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A89F2A7456C90004C811 /* FurnitureDimensions.swift */; };
 		7619A8A22A745B090004C811 /* FurniturePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8A12A745B090004C811 /* FurniturePrice.swift */; };
 		7619A8A42A7460EA0004C811 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */; };
+		7619A8B92A7566B00004C811 /* AppSidebarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8B82A7566B00004C811 /* AppSidebarList.swift */; };
+		7619A8BB2A7566D80004C811 /* AppDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8BA2A7566D80004C811 /* AppDetailColumn.swift */; };
+		7619A8BD2A756B710004C811 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7619A8BC2A756B710004C811 /* AppScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		7619A8A32A7460EA0004C811 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
 		7619A8A62A7468160004C811 /* LICENCE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
 		7619A8AC2A74F7D70004C811 /* HEADER */ = {isa = PBXFileReference; lastKnownFileType = text; path = HEADER; sourceTree = "<group>"; };
+		7619A8B82A7566B00004C811 /* AppSidebarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSidebarList.swift; sourceTree = "<group>"; };
+		7619A8BA2A7566D80004C811 /* AppDetailColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailColumn.swift; sourceTree = "<group>"; };
+		7619A8BC2A756B710004C811 /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 		7619A8632A72DD640004C811 /* Furniture Manager */ = {
 			isa = PBXGroup;
 			children = (
+				7619A8B72A754E440004C811 /* Navigation */,
 				7619A8962A742B3F0004C811 /* Model */,
 				7619A8642A72DD640004C811 /* Furniture_ManagerApp.swift */,
 				7619A8662A72DD640004C811 /* Item.swift */,
@@ -174,6 +181,16 @@
 				7619A8AC2A74F7D70004C811 /* HEADER */,
 			);
 			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		7619A8B72A754E440004C811 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7619A8B82A7566B00004C811 /* AppSidebarList.swift */,
+				7619A8BA2A7566D80004C811 /* AppDetailColumn.swift */,
+				7619A8BC2A756B710004C811 /* AppScreen.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,7 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7619A8A22A745B090004C811 /* FurniturePrice.swift in Sources */,
+				7619A8BD2A756B710004C811 /* AppScreen.swift in Sources */,
 				7619A89C2A7435F10004C811 /* FurnitureType.swift in Sources */,
+				7619A8BB2A7566D80004C811 /* AppDetailColumn.swift in Sources */,
 				7619A8A02A7456C90004C811 /* FurnitureDimensions.swift in Sources */,
 				7619A8672A72DD640004C811 /* Item.swift in Sources */,
 				7619A8652A72DD640004C811 /* Furniture_ManagerApp.swift in Sources */,
@@ -316,6 +335,7 @@
 				7619A89E2A7439420004C811 /* FurnitureMaterial.swift in Sources */,
 				7619A8692A72DD640004C811 /* ContentView.swift in Sources */,
 				7619A8A42A7460EA0004C811 /* PreviewSampleData.swift in Sources */,
+				7619A8B92A7566B00004C811 /* AppSidebarList.swift in Sources */,
 				7619A8942A72F5A50004C811 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
