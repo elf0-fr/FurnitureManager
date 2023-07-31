@@ -16,7 +16,7 @@ struct AppDetailColumn: View {
     var body: some View {
         Group {
             if let screen {
-                Text("There goes the screen destination")
+                screen.destination
             } else {
                 ContentUnavailableView("Pick something from the list", systemImage: "sofa")
             }
