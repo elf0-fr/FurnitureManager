@@ -45,4 +45,20 @@ extension AppScreen {
             Label(name, systemImage: "chair.lounge")
         }
     }
+    
+    @ViewBuilder
+    var destination: some View {
+        switch self {
+        case .Home:
+            HomeNavigationStack()
+        case .Furnitures:
+            Text("TODO")
+        case .Statistics:
+            Text("TODO")
+        case let .Space(name):
+            Text("TODO")
+        case let .FurnitureType(name):
+            Text("TODO")
+        }
+    }
 }
